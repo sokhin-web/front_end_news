@@ -4,8 +4,8 @@ import Entertainment from "./components/Entertainment";
 import Technology from "./components/Technology";
 import Society from "./components/Society";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Master_Web from "../src/master_web/Master_Web";
-import HomePage from "../src/master_web/HomePage";
+import Master_Web from "./master_web/Master_Web";
+import HomePage from "./master_web/HomePage";
 
 export default function App() {
   return (
@@ -29,7 +29,7 @@ export default function App() {
             ></Route>
             <Route path="/front_end_news/society" element={<Society />}></Route>
             <Route
-              path="/*"
+              path="/front_end_news/*"
               element={
                 <h2 className="text-center mt-[200px]">Page Not Found</h2>
               }
