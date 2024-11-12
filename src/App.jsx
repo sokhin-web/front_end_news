@@ -12,7 +12,7 @@ export default function App() {
     <div className="scroll-smooth bg-[#F5F7F8] ">
       <BrowserRouter>
         <Routes>
-          <Route element={<Master_Web />}>
+          <Route path="/front_end_news" element={<Master_Web />}>
             <Route path="/front_end_news" element={<HomePage />}></Route>
             <Route
               path="/front_end_news/highlight"
