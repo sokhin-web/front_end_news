@@ -4,7 +4,7 @@ function Logo() {
   return (
     <div className="">
       <div className="flex flex-row justify-between  bg-black  text-gray-400 px-2 pt-10 pb-5 phone:px-1 phone:pt-5 phone:pb-3">
-        <a href="/front_end_news">
+        <a href="/">
           <h1 className="text-3xl text-red-600 font-bold animate-bounce ml-10 phone:text-2xl phone:ml-5 ">
             LOGO
           </h1>
