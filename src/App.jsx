@@ -13,12 +13,21 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<Master_Web />}>
-            <Route path="/" element={<HomePage />}></Route>
-            <Route path="/highlight" element={<Highlight />}></Route>
-            <Route path="/sport" element={<Sport />}></Route>
-            <Route path="/entertainment" element={<Entertainment />}></Route>
-            <Route path="/technology" element={<Technology />}></Route>
-            <Route path="/society" element={<Society />}></Route>
+            <Route path="/front_end_news" element={<HomePage />}></Route>
+            <Route
+              path="/front_end_news/highlight"
+              element={<Highlight />}
+            ></Route>
+            <Route path="/front_end_news/sport" element={<Sport />}></Route>
+            <Route
+              path="/front_end_news/entertainment"
+              element={<Entertainment />}
+            ></Route>
+            <Route
+              path="/front_end_news/technology"
+              element={<Technology />}
+            ></Route>
+            <Route path="/front_end_news/society" element={<Society />}></Route>
             <Route
               path="/*"
               element={
