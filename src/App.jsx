@@ -28,12 +28,6 @@ export default function App() {
               element={<Technology />}
             ></Route>
             <Route path="/front_end_news/society" element={<Society />}></Route>
-            <Route
-              path="/front_end_news/*"
-              element={
-                <h2 className="text-center mt-[200px]">Page Not Found</h2>
-              }
-            ></Route>
           </Route>
         </Routes>
       </BrowserRouter>
