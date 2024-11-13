@@ -35,21 +35,21 @@ function Highlight() {
                   <img
                     src={image_hi1}
                     alt=""
-                    className="h-[100px]  phone:w-[45vw]"
+                    className="h-[300px]  phone:w-[45vw] phone:h-[100px]"
                   />
                 </div>
                 <div className="bg-black  w-[500px] h-[300px]  phone:w-[45vw] phone:h-[100px]">
                   <img
                     src={image_hi2}
                     alt=""
-                    className="h-[100px]  phone:w-[45vw]"
+                    className="h-[300px]  phone:w-[45vw] phone:h-[100px]"
                   />
                 </div>
                 <div className="bg-black  w-[500px] h-[300px]  phone:w-[45vw] phone:h-[100px]">
                   <img
                     src={image_hi3}
                     alt=""
-                    className="h-[100px]  phone:w-[45vw]"
+                    className="h-[300px] phone:w-[45vw] phone:h-[100px]"
                   />
                 </div>
               </Carousel>
