@@ -22,7 +22,7 @@ function Society() {
     >
       <div className="flex flex-col items-start pb-5 bg-white shadow-lg phone:w-[95vw] ">
         <h1 className="font-bold text-xl text-white  bg-pink-600 py-1 px-2 rounded-tr-2xl phone:rounded-tr-xl phone:text-sm ">
-          Sports:
+          Society:
         </h1>
         <div className="border-t-8 border-pink-600">
           <Carousel
