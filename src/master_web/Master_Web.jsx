@@ -1,14 +1,14 @@
 import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar";
-import { Outlet } from "react-router-dom";
+import HomePage from "./HomePage";
 
 function Master_Web() {
   return (
     <div>
       <Logo />
       <Navbar />
-      <Outlet />
+      <HomePage />
       <Footer />
     </div>
   );
