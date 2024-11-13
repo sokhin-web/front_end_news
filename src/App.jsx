@@ -15,20 +15,20 @@ export default function App() {
           <Route element={<Master_Web />}>
             <Route path="/front_end_news/" element={<HomePage />}></Route>
             <Route
-              path="/front_end_news//highlight/"
+              path="/front_end_news/highlight/"
               element={<Highlight />}
             ></Route>
-            <Route path="/front_end_news//sport/" element={<Sport />}></Route>
+            <Route path="/front_end_news/sport/" element={<Sport />}></Route>
             <Route
-              path="/front_end_news//entertainment/"
+              path="/front_end_news/entertainment/"
               element={<Entertainment />}
             ></Route>
             <Route
-              path="/front_end_news//technology/"
+              path="/front_end_news/technology/"
               element={<Technology />}
             ></Route>
             <Route
-              path="/front_end_news//society/"
+              path="/front_end_news/society/"
               element={<Society />}
             ></Route>
           </Route>
