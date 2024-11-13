@@ -9,16 +9,16 @@ function Navbar() {
         >
           <FaHome />
         </a>
-        <a href="/front_end_news/entertainment" className="hover:underline">
+        <a href="/front_end_news/entertainment/" className="hover:underline">
           Entertainment
         </a>
-        <a href="/front_end_news/technology" className="hover:underline">
+        <a href="/front_end_news/technology/" className="hover:underline">
           Technology
         </a>
-        <a href="/front_end_news/society" className="hover:underline">
+        <a href="/front_end_news/society/" className="hover:underline">
           Society
         </a>
-        <a href="/front_end_news/sport" className="hover:underline">
+        <a href="/front_end_news/sport/" className="hover:underline">
           Sports
         </a>
       </div>
