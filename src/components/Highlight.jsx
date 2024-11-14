@@ -24,12 +24,12 @@ function Highlight() {
         <h1 className="font-bold text-xl text-white bg-sky-600 py-1 px-2 rounded-tr-2xl phone:text-sm">
           Highlight:
         </h1>
-        <div className=" flex flex-row gap-2  justify-center items-center  phone:flex-col phone:gap-1 ">
+        <div className=" flex flex-row gap-2  justify-center items-center  phone:flex-col phone:gap-1 tablet:flex-col tablet:gap-1">
           <div className="flex flex-col gap-2">
             <div className="flex flex-row gap-2 ">
               <Carousel
                 autoplay
-                className="w-[500px] h-[300px]  m-auto phone:w-[45vw] phone:h-[100px]"
+                className="w-[500px] h-[300px]  m-auto phone:w-[45vw] phone:h-[100px] tablet:w-[45vw]  "
               >
                 <div className="bg-black w-[500px] h-[300px]  phone:w-[45vw] phone:h-[100px]">
                   <img
@@ -55,7 +55,7 @@ function Highlight() {
               </Carousel>
               <Carousel
                 autoplay
-                className="w-[500px] h-[300px]  m-auto phone:w-[45vw] phone:h-[100px]"
+                className="w-[500px] h-[300px]  m-auto phone:w-[45vw] phone:h-[100px] tablet:w-[45vw]"
               >
                 <div className="bg-black  w-[500px] h-[300px] phone:w-[45vw] phone:h-[100px]">
                   <img
@@ -80,7 +80,7 @@ function Highlight() {
                 </div>
               </Carousel>
             </div>
-            <div className="flex flex-row gap-2 phone:hidden">
+            <div className="flex flex-row gap-2 phone:hidden tablet:hidden">
               <Carousel autoplay className="w-[500px] h-[300px]  m-auto">
                 <div className="bg-black w-[500px] h-[300px]">
                   <img src={image_hi7} alt="" className="h-[300px]" />
@@ -105,7 +105,7 @@ function Highlight() {
               </Carousel>
             </div>
           </div>
-          <div className="flex flex-col gap-2 phone:flex-row phone:gap-2 phone:justify-between">
+          <div className="flex flex-col gap-2 phone:flex-row phone:gap-2 phone:justify-between tablet:flex-row tablet:gap-2 tablet:justify-between">
             <Carousel
               autoplay
               className="w-[300px] h-[300px]  m-auto phone:w-[45vw] phone:h-[200px]"

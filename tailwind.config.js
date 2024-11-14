@@ -5,8 +5,7 @@ export default {
     extend: {
       screens: {
         phone: { max: "640px" }, // Applies up to 640px
-        tablet: { max: "847px" }, // Applies up to
-        laptop: { max: "1024px" }, // Applies up to 1024px
+        tablet: { max: "1300px" }, // Applies up to
       },
       keyframes: {
         slide_right_center: {

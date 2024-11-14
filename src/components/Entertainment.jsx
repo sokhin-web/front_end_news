@@ -20,14 +20,14 @@ function Entertainment() {
       id="sport"
       className="flex flex-row justify-center mt-[100px] animate-slide_left_center phone:mt-10 "
     >
-      <div className="flex flex-col items-start pb-5 bg-white shadow-lg phone:w-[95vw] ">
+      <div className="flex flex-col items-start pb-5  bg-white shadow-lg phone:w-[95vw] ">
         <h1 className="font-bold text-xl text-white  bg-pink-600 py-1 px-2 rounded-tr-2xl phone:rounded-tr-xl phone:text-sm ">
-          Sports:
+          Entertainment:
         </h1>
         <div className="border-t-8 border-pink-600">
           <Carousel
             arrows
-            className="w-[70vw] h-[300px]  m-auto tablet:h-fit  phone:w-[95vw] phone:h-fit "
+            className="w-[80vw] h-[300px]  m-auto tablet:h-fit  phone:w-[95vw] phone:h-fit "
           >
             <div>
               <div className="bg-black w-[100%] h-[300px] flex flex-row justify-center items-center gap-10  text-white tablet:h-fit tablet:flex-col tablet:gap-2 ">

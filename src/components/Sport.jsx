@@ -33,7 +33,7 @@ function Sport() {
         <div className="border-t-8 border-green-600">
           <Carousel
             arrows
-            className="w-[70vw] h-[300px]  m-auto tablet:h-fit  phone:w-[95vw] phone:h-fit "
+            className="w-[80vw] h-[300px]  m-auto tablet:h-fit  phone:w-[95vw] phone:h-fit "
           >
             <div>
               <div className="bg-black w-[100%] h-[300px] flex flex-row justify-center items-center gap-10  text-white tablet:h-fit tablet:flex-col tablet:gap-2 ">
