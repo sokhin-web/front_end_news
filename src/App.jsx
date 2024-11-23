@@ -12,12 +12,23 @@ import { RiMoonClearFill } from "react-icons/ri";
 export default function App() {
   const [appStyle, setAppStyle] = useState("bg-[#F5F7F8]");
   const [nav_bg, setNav_bg] = useState("bg-red-600");
+  const [text_color, setText_color] = useState("text-red-600");
+  const [hover_text_color, setHover_text_color] =
+    useState("hover:text-red-600");
   const toggleStyle = () => {
     setAppStyle((prevClass) =>
       prevClass.includes("bg-[#F5F7F8]") ? "bg-[#257180] " : "bg-[#F5F7F8] "
     );
     setNav_bg((prevClass) =>
       prevClass.includes("bg-red-600") ? "bg-[#fc7e3f]" : "bg-red-600"
+    );
+    setText_color((prevClass) =>
+      prevClass.includes("text-red-600") ? "text-[#fc7e3f]" : "text-red-600"
+    );
+    setHover_text_color((prevClass) =>
+      prevClass.includes("hover:text-red-600")
+        ? "hover:text-[#fc7e3f]"
+        : "hover:text-red-600"
     );
   };
   return (
@@ -30,10 +41,12 @@ export default function App() {
               <Master_Web
                 moon={
                   <button onClick={toggleStyle}>
-                    <RiMoonClearFill />
+                    <RiMoonClearFill className="animate-pulse" />
                   </button>
                 }
                 nav_bg={nav_bg}
+                text_color={text_color}
+                hover_text_color={hover_text_color}
               />
             }
           >
