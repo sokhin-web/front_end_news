@@ -6,13 +6,15 @@ import Society from "./components/Society";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Master_Web from "./master_web/Master_Web";
 import HomePage from "./master_web/HomePage";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { RiMoonClearFill } from "react-icons/ri";
+import Advertise from "./components/Advertise";
 
 export default function App() {
   const [appStyle, setAppStyle] = useState("bg-[#F5F7F8]");
   const [nav_bg, setNav_bg] = useState("bg-red-600");
   const [text_color, setText_color] = useState("text-red-600");
+  const [showPopup, setShowPopup] = useState(true);
   const [hover_text_color, setHover_text_color] =
     useState("hover:text-red-600");
   const toggleStyle = () => {
@@ -31,8 +33,15 @@ export default function App() {
         : "hover:text-red-600"
     );
   };
+  const closePopup = () => setShowPopup(false); // Close popup when the close button is clicked
+  // Auto-hide popup after 3 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => setShowPopup(false), 5000);
+    return () => clearTimeout(timer); // Clean up the timeout on unmount
+  }, []);
   return (
     <div className={`scroll-smooth ${appStyle}`}>
+      {showPopup && <Advertise onClose={closePopup} />}
       <BrowserRouter>
         <Routes>
           <Route
