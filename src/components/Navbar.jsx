@@ -3,7 +3,7 @@ import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 function Navbar({ moon, nav_bg }) {
   return (
-    <div className="sticky top-0 z-50 w-full animate-slide_top_center">
+    <div className="sticky top-0 z-20 w-full animate-slide_top_center">
       <div
         className={`flex flex-row justify-center items-center gap-10 ${nav_bg}   shadow-lg  p-2  text-white text-lg phone:text-sm phone:gap-3 phone:p-1 phone:py-2`}
       >
